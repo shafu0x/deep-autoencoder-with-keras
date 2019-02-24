@@ -5,11 +5,6 @@ An autoencoder is a type of artificial neural network used to learn efficient da
 
 In this example I use an autoencoder to encode/decode images from the MNIST dataset. In the first step the images are encoded to a smaller dimension (type of dimensionality reduction). After that the task of the decoder is to decode that lower dim. image to its original form.
 
-This is an implementation of an stacked autoencoder using Keras to reconstruct a subset of samples from the mnist dataset.The architecture is built using Keras.
-Autoencoders are deep neural networks used to reproduce the input at the output layer i.e. the number of neurons in the output layer is exactly the same as the number of neurons in the input layer. 
-But, the actual use of autoencoders is for determining a compressed version of the input data with the lowest amount of loss in data. What I mean by this is: You must have heard of a term while developing machine learning projects called Principle Component Analysis. The concept of PCA is to find the best and relevant parameters for training of a model where the dataset has a huge number of parameters. 
-The autoencoders work in a similar way. The encoder part of the architecture breaks down the input data to a compressed version ensuring that important data is not lost but the overall size of the data is reduced significantly. This concept is called Dimensionality Reduction.
-
 ![images](https://user-images.githubusercontent.com/28685502/43400785-396a18f8-942c-11e8-9251-807f13d5dd1c.png)
 
 
